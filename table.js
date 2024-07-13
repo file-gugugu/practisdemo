@@ -5,5 +5,5 @@ function adddata(){
     var newrow=table.insertRow(length);
     var namecol=newrow.insertCell(0);
     var phonecol=newrow.insertCell(1);
-    var actioncol=newrow.insertCell(2) 
+    var actioncol=newrow.insertCell(2) /**/ 
 }
