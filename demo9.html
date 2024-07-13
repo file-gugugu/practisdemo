@@ -8,11 +8,11 @@
 <body>
     <h1 style="text-align: center;">表格的增删改查</h1>
     <div class="button-container">
-         <button class="button1">新增数据</button>
+         <button class="button1" onclick="adddata()">新增数据</button>
     </div>
    
     
-    <table class="sTable">
+    <table class="sTable" id="idtable">
      <tr>
         <th>姓名</th>
         <th>联系方式</th>
@@ -27,7 +27,7 @@
         </td>
      </tr>
     </table>
-    
+    <script src="./table.js"></script>
    
 <style>
     .sTable{
