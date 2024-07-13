@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">表格的增删改查</h1>
+    <div class="button-container">
+         <button class="button1">新增数据</button>
+    </div>
+   
+    
+    <table class="sTable">
+     <tr>
+        <th>姓名</th>
+        <th>联系方式</th>
+        <th>操作</th>
+     </tr>
+     <tr>
+        <td>人员1</td>
+        <td>12345</td>
+        <td>
+            <button>编辑</button>
+            <button>删除</button>
+        </td>
+     </tr>
+    </table>
+    
+   
+<style>
+    .sTable{
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+       
+    }
+    th,td{
+        border: 1px solid #a49d9d;
+        text-align: center;
+        padding: 8px;
+    }
+    .button-container {
+        overflow: auto; /* 避免浮动元素对父元素的影响 */
+    }
+    .button1{
+        float:right;
+        margin-bottom: 10px; /*  */
+        
+    }
+</style>
+</body>
+</html>
